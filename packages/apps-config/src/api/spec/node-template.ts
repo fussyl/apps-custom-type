@@ -3,8 +3,13 @@
 
 // structs need to be in order
 /* eslint-disable sort-keys */
+// my custom type: NumberStruct
 
 export default {
   Address: 'AccountId',
-  LookupSource: 'AccountId'
+  LookupSource: 'AccountId',
+  NumberStruct: {
+    number: 'u32',
+    option: 'Option<u32>'
+  }
 };
